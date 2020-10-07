@@ -1,0 +1,18 @@
+g1 data bss RW program
+g2 code const R program
+g3 data data RW program
+g4 data bss RW program
+g5 data data RW program
+N none none none none
+l1 register none RW function
+l2 data stack RW function
+*l2 (dereferenced) data heap RW indefinite
+l3 data stack RW function
+SOME_VALUE none none none none
+f1 data stack RW function
+f2 data bss RW program
+f3 data stack RW function
+Hello World! (The string) code rodata R Program
+main() code text R Program
+func() code text R Program
+
